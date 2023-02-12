@@ -7,11 +7,10 @@
 
 .block {
     border: 1px solid black;
-    width: 40px;
+    width: 50px;
 }
 
-block:hover {
-    border: 5px solid black;
+.hovered {
     background-color: yellow;
 }
 

@@ -22,3 +22,6 @@ function createGrid(row, column){
 }
 
 createGrid(16,16);
+
+const blocks = document.querySelectorAll('.block');
+blocks.forEach(block => block.addEventListener('mouseover', () => block.classList.add('hovered')));
