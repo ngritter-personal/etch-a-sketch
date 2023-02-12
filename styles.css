@@ -1,20 +1,24 @@
 .row {
-    height: 50px;
+    /*height: 50px;*/
     color: pink;
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
 }
 
 .block {
     border: 1px solid black;
-    width: 50px;
+    flex-grow: 1;
+    /*width: 50px;*/
 }
 
 .hovered {
-    background-color: yellow;
+    background-color: black;
 }
 
 #container {
     display: flex;
     flex-direction: column;
+    width: 960px;
+    height: 960px;
 }
